@@ -3,7 +3,7 @@ session_start();
 set_time_limit(0);
 error_reporting(0);
 $refcode = "HDRSOP";
-$jml = 100;
+$jml = 50;
 include 'Signature.php';
 	if(isset($refcode))
 	{
@@ -11,7 +11,7 @@ include 'Signature.php';
 		header("Content-Type: text");
 		header("access-control-allow-origin: *");
 		header("pragma: no-cache");
-		if($jml > 1000)
+		if($jml > 50)
 		{
 			die;
 		}
