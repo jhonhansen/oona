@@ -11,7 +11,7 @@ include 'Signature.php';
 		header("Content-Type: text");
 		header("access-control-allow-origin: *");
 		header("pragma: no-cache");
-		if($jml > 1000)
+		if($jml > 100)
 		{
 			die;
 		}
